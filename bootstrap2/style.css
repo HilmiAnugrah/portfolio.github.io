@@ -1,0 +1,24 @@
+body {
+  min-height: 2000px;
+}
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #a2d9ff;
+}
+#projects {
+  background-color: #a2d9ff;
+}
+.card-img-top {
+  border-radius: 15px 15px 0px 0px;
+}
+.card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+section {
+  padding-top: 6rem;
+}
+navbar-nav nav-item::not(:last-child) {
+  margin-right: 50px;
+}
